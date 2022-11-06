@@ -1,0 +1,76 @@
+.loja{
+    background-color: rgb(207, 207, 207);
+}
+
+.carrosel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+.card{
+    width: 15%;
+    height: 80px;
+}
+.card:not(:first-child){
+    margin-left: 10px;
+}
+@media only screen and (max-device-width: 900px){
+    .card{
+        width: 100%;
+    }
+}
+.item{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 280px;
+    border-radius: 16px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info span{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.nome{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+.precoOld{
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    flex-grow: 1;
+}
+.preco{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #B42719;
+    color: white;
+}
+.test0{
+    margin-top: 10px;
+}
+.slide{
+    height: 500px;
+}
+.img0{
+    width: 100%;
+    height: 500px;
+}
+

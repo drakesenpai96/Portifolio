@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+
+.header{
+    background-color: #0a0a0a;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 10px #3f3f3f;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 50pt;
+    opacity: 95%;
+    overflow: hidden;
+}
+.header div{
+    animation: coming 1s ease-in-out;
+}
+@keyframes coming {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes HeaderAnim {
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

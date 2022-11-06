@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+/**/
+.center{
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.white{
+    background-color: #e8ebdb;
+}
+.grey{
+    background-color: #a5a5a5;
+}
+
+
+.intro{
+    width: 96%;
+    margin-left: 2%;
+    background-color: #7c7c797c;
+    color: white;
+    height: 600px;
+    box-shadow: 2px 2px 7px black;
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    display: flex;
+    overflow: hidden;
+    opacity: 98%;
+}
+
+.Imgs{
+    margin-top: 15px;
+    font-family: 'Kiwi Maru', serif;
+    animation: getDown 1.4s ease-in-out;
+}
+@keyframes getDown {
+    0%{
+        transform: translateY(-800px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.perfil{
+    margin-top: 30px;
+    width: 85%;
+    animation: fotoPerfil 1.5s ease-in-out;
+}
+.logoIntro{
+    width: 14%;
+    animation: float 3s infinite ease-in-out;
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+
+		transform: translatey(0px);
+	}
+}
+@media only screen and (max-device-width: 900px) {
+    .intro{
+        display: block;
+        height: 900px;
+    }
+    .textContainer{
+        margin-top: 40px;
+    }
+    .perfil{
+        width: 50%;
+    }
+    .logoIntro{
+        width: 19%;
+    }
+    }
+@keyframes fotoPerfil {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.imgContainer{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+.imgBorder{
+    border-radius: 20px;
+}
+.imgContainer :not(:first-child){
+    margin-left: 40px;
+}
+.imgContainer:not(:last-child){
+    margin-bottom: 20px;
+}
+.textContainer{
+    font-family: 'Kiwi Maru', serif;
+}
+.cont{
+    background-color: #0a0a0a;
+    margin-top: 10px;
+    width: 100%;
+    height: 1400px;
+    overflow: hidden;
+    box-shadow: 2px 2px 7px black;
+    opacity: 95%;
+}
+.opts{
+    display: flex;
+}
+.opt{
+    margin-left: 15px;
+    border: 1px solid white;
+    width: 31%;
+    height: 140px;
+}
+
+.icons{
+    margin-top: 70px;
+}
+
+.side ul{
+    margin-top: 120px;
+    list-style: none;
+    padding: 0;
+    color: black
+}
+.side ul li{
+    height: 80px;
+}
+
+.side ul li span{
+    font-size: 22pt;
+    font-weight: bolder;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+.headerLoja{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    background-color: #B42719;
+    display: flex;
+    overflow: hidden;
+}
+.logoLoja{
+    width: 25%;
+}
+.headerBtn{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.headerBtn a{
+    text-decoration: none;
+    color: white;
+    font-size: 15pt;
+}
+.headerBtn a:not(:first-child){
+    margin-left: 20px;
+}

@@ -1,0 +1,7 @@
+.footer{
+    border: 1px solid black;
+    border-top: none;
+    color: white;
+    background-color: black;
+    height: 100px;
+}

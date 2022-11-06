@@ -1,0 +1,7 @@
+.fundo{
+    background-image: url('/public/images/fundo.gif');
+    background-repeat: repeat;
+    align-items: center;
+    justify-content: 'center';
+    text-align: center;
+}
