@@ -103,6 +103,9 @@
 .midle{
     margin-left: 15px;
 }
+.kali{
+    width: 17%;
+}
 .imgContainer:not(:last-child){
     margin-bottom: 20px;
 }

@@ -29,7 +29,9 @@ function Main(){
                             <img src="/images/logos/logoPython.png" alt="logo6" className='logoIntro last'/>
                         </div>
                         <div className='imgContainer'>
-                            <img src="/images/logos/logoMySQL.png" alt="logo6" className='logoIntro'/>
+                            <img src="/images/logos/logoLinux.png" alt="logo7" className='logoIntro'/>
+                            <img src="/images/logos/logoNode.png" alt="logo8" className='logoIntro midle'/>
+                            <img src="/images/logos/logoMySQL.png" alt="logo9" className='logoIntro last'/>
                         </div>
                     </div>
                     <div data-aos="fade-right" className='textContainer'>
