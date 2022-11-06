@@ -19,16 +19,17 @@ function Main(){
                     <div className='Imgs'>
                         <h1>Qualificações</h1>
                         <div className='imgContainer'>
-                            <img src="/images/logoHTML.png" alt="logo1" className='logoIntro'/>
-                            <img src="/images/logoCss.png" alt="logo2" className='logoIntro'/>
+                            <img src="/images/logos/logoHTML.png" alt="logo1" className='logoIntro'/>
+                            <img src="/images/logos/logoCss.png" alt="logo2" className='logoIntro midle' />
+                            <img src="/images/logos/logoJS.png" alt="logo3" className='logoIntro js' />
                         </div>
                         <div className='imgContainer'>
-                            <img src="/images/logoJS.png" alt="logo3" className='logoIntro'/>
-                            <img src="/images/logoPython.png" alt="logo4" className='logoIntro'/>
+                            <img src="/images/logos/logoReact.png" alt="logo4" className='logoIntro'/>
+                            <img src="/images/logos/logoWP.png" alt="logo5" className='logoIntro midle'/>     
+                            <img src="/images/logos/logoPython.png" alt="logo6" className='logoIntro last'/>
                         </div>
                         <div className='imgContainer'>
-                            <img src="/images/logoPHP.png" alt="logo5" className='logoIntro'/>
-                            <img src="/images/logoMySQL.png" alt="logo6" className='logoIntro'/>
+                            <img src="/images/logos/logoMySQL.png" alt="logo6" className='logoIntro'/>
                         </div>
                     </div>
                     <div data-aos="fade-right" className='textContainer'>
