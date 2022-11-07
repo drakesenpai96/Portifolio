@@ -2,7 +2,9 @@ function Site(){
 
     return(
         <div>
-            <canvas id="canvas"></canvas>
+            <video width='900' height='400' controls>
+                <source src='/videos/filme1.mp4' type="video/mp4"></source>
+            </video>
         </div>
     )
 }

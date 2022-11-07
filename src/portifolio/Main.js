@@ -3,10 +3,6 @@ import './Center.css'
 import Header from './Header'
 import Footer from './Footer'
 import Banner from './Banner'
-import {useRef, useState, useEffect} from 'react'
-import {useNavigate} from 'react-router-dom'
-import  {Carousel, Card, Button}  from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Main(){
@@ -16,8 +12,7 @@ function Main(){
         <div className='fundo'>
             <Header/>
             <div className='center'>
-                <div className='intro'>
-                    
+                <div className='intro'>  
                     <div className='Imgs'>
                         <h1>Qualificações</h1>
                         <div className='imgContainer'>

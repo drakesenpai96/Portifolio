@@ -74,14 +74,28 @@
         display: block;
         height: 900px;
     }
+    .Imgs{
+        width: 100%;
+    }
+    .imgs{
+        width: 50%;
+    }
     .textContainer{
+        width: 100%;
         margin-top: 40px;
+        text-align: center;
+    }
+    .textContainer div span{
+        text-align: center;
     }
     .perfil{
-        width: 50%;
+        width: 60%;
     }
     .logoIntro{
         width: 19%;
+    }
+    .js{
+        width: 27%;
     }
     }
 @keyframes fotoPerfil {
