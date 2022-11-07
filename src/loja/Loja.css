@@ -2,6 +2,15 @@
     background-color: rgb(207, 207, 207);
 }
 
+.topo{
+    background-color: #B42719;
+}
+
+.letters{
+    color: white;
+    font-size: 14pt;
+}
+
 .carrosel {
     display: flex;
     overflow-x: auto;

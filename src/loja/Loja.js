@@ -3,7 +3,7 @@ import React from 'react'
 import {useEffect, useState} from 'react'
 import {QRCodeCanvas} from 'qrcode.react'
 import HeaderLoja from './HeaderLoja'
-import  {Carousel, Card, Button}  from 'react-bootstrap'
+import  {Carousel, Card, Button, Navbar, Container, Nav,}  from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Loja(){
@@ -25,7 +25,19 @@ function Loja(){
     
     return(
         <div className='loja'>
-            <HeaderLoja></HeaderLoja>
+            <Navbar className='topo'>
+                <Container>
+                    <Navbar.Brand href='/loja'><img src='images/drakeshopLogo.png' alt='logoLoja' className='logoLoja'/></Navbar.Brand>
+                    <Navbar.Toggle aria-controls='basic-navbar-nav'></Navbar.Toggle>
+                    <Navbar.Collapse id='basic-navbar-nav'>
+                        <Nav className='me-auto'>
+                            <Nav.Link href='/loja' className='letters'>Home</Nav.Link>
+                            <Nav.Link href='#' className='letters'>Produtos</Nav.Link>
+                            <Nav.Link href='/login' className='letters'>Login</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
             <div className='test0'>
                 <Carousel>
                     <Carousel.Item>

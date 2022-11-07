@@ -5,6 +5,8 @@ import Footer from './Footer'
 import Banner from './Banner'
 import {useRef, useState, useEffect} from 'react'
 import {useNavigate} from 'react-router-dom'
+import  {Carousel, Card, Button}  from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Main(){
