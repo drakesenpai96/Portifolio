@@ -16,6 +16,7 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     overflow: hidden;
+    margin-top: 100px;
 }
 .card{
     width: 15%;
@@ -24,11 +25,7 @@
 .card:not(:first-child){
     margin-left: 10px;
 }
-@media only screen and (max-device-width: 900px){
-    .card{
-        width: 100%;
-    }
-}
+
 .item{
     background-color: white;
     margin: 10px;
@@ -83,3 +80,15 @@
     height: 500px;
 }
 
+
+@media only screen and (max-device-width: 900px){
+    .card{
+        width: 100%;
+    }
+    .slide{
+        height: 300px;
+    }
+    .img0{
+        height: 300px;
+    }
+}

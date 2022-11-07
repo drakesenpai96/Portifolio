@@ -11,11 +11,24 @@
     margin-top: 50px;
     margin-left: 400px;
 }
-.headerBtn a{
-    text-decoration: none;
-    color: white;
-    font-size: 15pt;
-}
+
 .headerBtn a:not(:first-child){
     margin-left: 20px;
+}
+.letters{
+    font-size: 15pt;
+    color: white;
+}
+
+.btnNav{
+    margin-left: 100px;
+}
+@media only screen and (max-device-width: 900px){
+    .logoLoja{
+        width: 80%;
+    }
+    .btnNav{
+        margin-left: 0;
+    }
+
 }

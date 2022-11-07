@@ -6,12 +6,14 @@ import {
 } from 'react-router-dom';
 import Main from './portifolio/Main'
 import Loja from './loja/Loja'
-import Blog from './blog/Blog'
+import LoginChat from './chat/LoginChat'
 import Site from './site/Site'
 import CadCon from './loja/CadCon';
 import Login from './loja/Login';
 import Cadastro from './loja/Cadastro'
+import io from 'socket.io-client'
 
+const socket = io.connect('http://192.168.1.105:8080')
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Main></Main>}></Route>
       <Route path='/game' element={<Site></Site>}></Route>
-      <Route path='/blog' element={<Blog></Blog>}></Route>
+      <Route path='/chat' element={<LoginChat socket={socket}></LoginChat>}></Route>
       <Route path='/loja' element={<Loja></Loja>}></Route>
       <Route path='/cadCon' element={<CadCon></CadCon>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>
