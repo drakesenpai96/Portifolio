@@ -45,8 +45,8 @@ function Banner(){
                     Chat
                 </button>
                 <button className='btns baby' onClick={BtnClick}>
-                    <div>
-                        <a href='/game'><img src='images/babyflix/logoBabyflix.png' alt='logoLoja' className='logoIntro imgBtn'></img></a>
+                    <div className='babyCont'>
+                        <a href='/game'><img src='images/babyflix/logoBabyflix.png' alt='logoLoja' className='logoIntro imgBtn babyImg'></img></a>
                     </div>
                     BabyFlix
                 </button>
