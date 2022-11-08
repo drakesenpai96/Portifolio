@@ -12,6 +12,7 @@ import CadCon from './loja/CadCon';
 import Login from './loja/Login';
 import Cadastro from './loja/Cadastro'
 import io from 'socket.io-client'
+import ChatCadastro from './chat/ChatCadastro';
 
 const socket = io.connect('http://192.168.1.105:8080')
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/' element={<Main></Main>}></Route>
       <Route path='/game' element={<Site></Site>}></Route>
       <Route path='/chat' element={<LoginChat socket={socket}></LoginChat>}></Route>
+      <Route path='/cadchat' element={<ChatCadastro socket={socket}></ChatCadastro>}></Route>
       <Route path='/loja' element={<Loja></Loja>}></Route>
       <Route path='/cadCon' element={<CadCon></CadCon>}></Route>
       <Route path='/login' element={<Login></Login>}></Route>

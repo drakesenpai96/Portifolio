@@ -34,19 +34,19 @@ function Banner(){
             <div className='Btns'>
                 <button className='btns Loja' onClick={BtnClick}>
                     <div>
-                        <img src='images/loja/drakeshopLogo.png' alt='logoLoja' className='logoIntro imgBtn'></img>
+                        <a href='/loja'><img src='images/loja/drakeshopLogo.png' alt='logoLoja' className='logoIntro imgBtn'></img></a>
                     </div>
                     Loja online
                 </button>
                 <button className='btns chat' onClick={BtnClick}>
                     <div>
-                        <img src='images/loja/drakeshopLogo.png' alt='logoLoja' className='logoIntro imgBtn'></img>
+                        <a href='/chat'><img src='images/chat/logoChat.png' alt='logoLoja' className='logoIntro imgBtn'></img></a>
                     </div>
                     Chat
                 </button>
                 <button className='btns baby' onClick={BtnClick}>
                     <div>
-                        <img src='images/loja/drakeshopLogo.png' alt='logoLoja' className='logoIntro imgBtn'></img>
+                        <a href='/game'><img src='images/babyflix/logoBabyflix.png' alt='logoLoja' className='logoIntro imgBtn'></img></a>
                     </div>
                     BabyFlix
                 </button>

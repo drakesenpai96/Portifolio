@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(207, 207, 207);   
+}
+
+.loginChat{
+    border: 1px solid rgba(0, 0, 0, 0.568);
+    border-top: hidden;
+    width: 85%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    height: 550px;
+    animation: downL 1.5s ease-in-out;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.589);
+}
+
+@keyframes downL{
+    0%{
+        transform: translateY(-2000px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.logoChat{
+    width: 35%;
+}
+.chatLogin{
+    display: block;
+    position: absolute;
+    left: 40%;
+    top: 55%
+}
+.chatLogin label{
+    font-size: 15pt;
+    font-weight: bolder;
+}
+.chatLogin input{
+    width: 250px;
+    text-align: center;
+}
+.loginBtn{
+    width: 150px;
+    height: 50px;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+.cadBtn{
+    width: 150px;
+    height: 50px;
+    font-size: 15pt;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.cadLink {
+    font-size: 3pt;
+    color: grey;
+}
+
+@media only screen and (max-device-width: 900px){
+    .logoChat{
+        width: 100%;
+    }
+    
+    .chatLogin{
+        left: 10%;
+        top: 50%;
+    }
+}
