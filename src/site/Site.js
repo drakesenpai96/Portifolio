@@ -1,4 +1,6 @@
-function Site(){
+import './Site.css'
+
+function Site({nome, caminho, }){
 
     return(
         <div className="Watch">

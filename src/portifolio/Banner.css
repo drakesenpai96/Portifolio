@@ -32,11 +32,30 @@
     font-size: 45pt;
     text-align: center;
     font-family: 'Kiwi Maru', serif;
-    border: 2px solid white;
+    border: 0px hidden white;
+    background-color: #7c7c797c;
+    color: white;
+    transition: 0.5s;
+    opacity: 0.7;
 }
+
+.btns:hover{
+    opacity: 1;
+}
+
 .btns:not(:first-child){
     margin-left: 15px;
 }
+.imgBtn{
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 7px 20px 10px 2px black;
+}
+
+.btns:not(:hover) .imgBtn{
+    animation: none ease-out;
+}
+
 .banner0{
     width: 32%;
 }
@@ -67,12 +86,16 @@
     .btns{
         width: 135px;
         height: 135px;
-        font-size: 15pt;
+        font-size: 16pt;
+
     }
     .btns:last-child{
         margin-top: 20px;
     }
     .banner0{
         margin-left: 40px;
+    }
+    .imgBtn{
+        box-shadow: 2px 8px 10px 2px black;
     }
 }

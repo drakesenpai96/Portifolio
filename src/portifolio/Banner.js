@@ -32,9 +32,24 @@ function Banner(){
                 <h1 className='btnT'>Projetos</h1>
             </div>
             <div className='Btns'>
-                <button className='btns Loja' onClick={BtnClick}>Loja online</button>
-                <button className='btns chat' onClick={BtnClick}>Chat</button>
-                <button className='btns baby' onClick={BtnClick}>BabyFlix</button>
+                <button className='btns Loja' onClick={BtnClick}>
+                    <div>
+                        <img src='images/loja/drakeshopLogo.png' alt='logoLoja' className='logoIntro imgBtn'></img>
+                    </div>
+                    Loja online
+                </button>
+                <button className='btns chat' onClick={BtnClick}>
+                    <div>
+                        <img src='images/loja/drakeshopLogo.png' alt='logoLoja' className='logoIntro imgBtn'></img>
+                    </div>
+                    Chat
+                </button>
+                <button className='btns baby' onClick={BtnClick}>
+                    <div>
+                        <img src='images/loja/drakeshopLogo.png' alt='logoLoja' className='logoIntro imgBtn'></img>
+                    </div>
+                    BabyFlix
+                </button>
             </div>
         </div>
     )
