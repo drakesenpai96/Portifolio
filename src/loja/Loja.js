@@ -14,7 +14,6 @@ function Loja(){
         .then((response) => response.json())
         .then(setProds)
     }, [prods])
-    if(!prods || !prods.length) return null
     
     return(
         <div className='loja'>
