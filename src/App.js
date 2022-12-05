@@ -14,7 +14,7 @@ import Cadastro from './loja/Cadastro'
 import io from 'socket.io-client'
 import ChatCadastro from './chat/ChatCadastro';
 
-const socket = io.connect('http://192.168.1.105:8080')
+const socket = io.connect('http://192.168.1.106:8080')
 
 function App() {
   return (
